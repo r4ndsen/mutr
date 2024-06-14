@@ -1,0 +1,6 @@
+build:
+	mkdir -p ./bin && \
+	go build -o ./bin/ ./cmd/mutr/...
+
+install:
+	go install ./cmd/mutr/...
